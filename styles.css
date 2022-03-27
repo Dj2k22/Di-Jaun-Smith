@@ -1,0 +1,235 @@
+.intro{
+    
+    width: 110%;
+    height:1293px;
+    background-color: #ade8f4;
+    margin: -10px;
+}
+body{
+    font-family: 'Merriweather', serif; 
+    margin-left: 0;
+    color:#40514E
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #2980b9;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    margin: 0 auto 0 auto;  
+    text-align: center;
+    position: relative;
+    line-height: 200%;
+    color: #25a7f8;
+}
+p{
+    text-align: center;
+}
+.p{
+    margin: 0 auto 0 auto;  
+    text-align: center;
+    position: relative;
+    font-family:'Montserrat', sans-serif;
+    color: #25a7f8;
+}
+#mountain{
+    height: 600px;
+    width:800px;
+    position:relative;
+    left: 150px;
+    bottom: 160px;
+}
+.cloud{
+    height: 150px;
+    width:250px;
+}
+.birds{
+    height: 200px;
+    width:300px;
+    display: inline;
+    position:relative;
+    left: 780px;
+    top: 50px;
+}
+.cloud1{
+    position:relative;
+    margin-top: 140px;
+    margin-bottom: 10px;
+    left: 660px;
+    bottom: 20px;
+
+
+}
+.cloud2{
+    position:relative;
+    left: 120px;
+    display: block;
+    margin-top: 10px;
+    bottom:210px;
+
+}
+.pro{
+    text-decoration: underline;
+}
+
+.htmlimage{
+    height: 140px;
+    width: 150px;
+    margin-left: 25%;
+}
+.cssimage{
+    height: 140px;
+    width: 150px;
+    margin-left: 26%;
+}
+.jsimage{
+    height: 148px;
+    width: 290px;
+    margin-left: 0%;
+}
+.jstitle{
+    position: relative;
+    right: 7px;
+}
+.bootstrapimage{
+    height: 150px;
+    width: 250px;
+    margin-left: 7%;
+}
+.bootstraptitle{
+    position: relative;
+    right: 18px;
+}
+.pythonimage{
+    height: 150px;
+    width: 150px;
+    margin-left: 27%;
+}
+.pythontitle{
+    position: relative;
+    right: 5px;
+}
+.oopimage{
+    height: 150px;
+    width: 150px;
+    margin-left: 29%;
+    border-radius: 50%;
+}
+.ooptitle{
+    position: relative;
+    right: 19px;
+}
+.center{
+    margin-left: 20px;
+}
+.contact-me{
+    text-align: center;
+}
+.bottom-section{
+    text-align: center;
+}
+.getintouchp{
+    line-height: 200%;
+}
+.skilltitle{
+    font-size: 40px;
+}
+
+.skill-row1{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    float: left;
+}
+.skill-row2{
+    width: 30%;
+    margin-left: 30px;
+    float: right;
+    position: relative;
+    right: 50px;
+    
+}
+.skill-row3{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    height: 20%;
+    float: right;
+    position: relative;
+    bottom: 8px;
+
+}
+.skill-row4{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    height: 200px;
+    float: left;
+    position:relative;
+    top: 30px;
+}
+.skill-row5{
+    width: 30%;
+    margin: 0 auto 0 auto;
+    height: 200px;
+    position:relative;
+    top: 30px;
+    
+}
+.skill-row6{
+    width: 40%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    height: 300px;
+    left: 650px;
+    bottom: 170px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .footer-link{
+      padding: 10px;
+      text-decoration: none;
+      color: #4ed9f5;
+  }
+  .bottom-section{
+    margin-top: 40px;
+    background-color:#3498db ;
+    padding: 40px 0 40px 0;
+    margin-bottom: 0;
+    margin-right: 0;
+
+    position: relative;
+    top: 10px;
+  }
