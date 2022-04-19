@@ -1,2 +1,2 @@
-# Di-Jaun-Smith
+# Di-JaunSmith
 Personal Website
