@@ -1,0 +1,486 @@
+
+body{
+    font-family: 'Merriweather', serif; 
+    margin: 0;
+    color:#40514E;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #2980b9;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.greeting{
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    font-weight: 600;
+    margin: 0 auto 0 auto;  
+    text-align: center;
+    position: relative;
+    line-height: 200%;
+    color: #25a7f8;
+}
+p{
+    text-align: center;
+}
+
+/* Intro-Section */
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:  #0c7ec5;
+}
+ul li a:hover{
+    color: #2580f8;
+}
+
+#intro{
+    background-color: #ade8f4;
+    height: 85.1rem;
+}
+.cloud-div{
+    padding-top: 12%;
+}
+.cloud{
+    height: 145px;
+    aspect-ratio: 16/9;
+    padding: 2%;
+}
+.cloud1{
+    margin-left: 70%;
+}
+.cloud2{
+    margin-left: 2%;
+}
+.birds{
+    height: 250px;
+    aspect-ratio: 1/1;
+    display: inline;
+    margin-left: 75%;
+}
+.mountain{
+    height: 600px;
+    width:800px;
+}
+.mountain-div{
+    text-align: center;
+}
+.p{
+    margin: 0 auto 0 auto;  
+    text-align: center;
+    position: relative;
+    font-family:'Montserrat', sans-serif;
+    color: #25a7f8;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+/* Profile-Section */
+
+.profile{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    width:100%;
+    vertical-align: middle;
+}
+
+
+.remove-link-decoration{
+    text-decoration: none;
+    color:blue;
+}
+.remove-link-decoration:hover{
+    color: #3cb0fd;
+}
+.hi{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #25a7f8;
+    padding: 3% 0;
+}
+.introduction-paragraph{
+    color:#40514E;
+}
+
+/* What-I-Can-Do-Section */
+#what-I-can-do-section{
+    background-color: #ade8f4;
+}
+.center{
+    text-align: center;
+}
+.what-I-can-do-header{
+    color: #000;
+    padding: 3.5%;
+    font-size:3rem;
+}
+.typography-div{
+    text-align: left;
+    padding:5%;
+}
+
+.typography-header-div{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding:1%;
+}
+.design-what-you-want-header{
+    font-size: 2rem;
+    padding-top: 4%;
+    color:  #1490dd;
+}
+.typography-paragraph{
+    font-size:1rem;
+    font-family: 'Merriweather', serif; 
+    color: #40514E;
+}
+.checklist{
+    height:165px;
+    width:155px;
+    border-radius: 45%;
+}
+.checklist-div{
+    text-align: center;
+}
+.user-interface-design{
+    text-align: right;
+    padding:5%;
+}
+.user-interface-design-header-div{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding:1%
+}
+.user-interface-design-header{
+    font-size: 2rem;
+    color:  #1490dd;
+}
+
+.user-interface-design-paragraph-div{
+
+}
+.user-interface-design-paragraph{
+    font-size:1rem;
+    font-family: 'Merriweather', serif; 
+    color: #40514E;
+}
+.mobile-phone{
+    height:160px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.mobile-phone-div{
+    text-align: center;
+}
+
+/* Skills-Section */
+
+.skilltitle{
+    font-size:3rem;
+    padding: 5%;
+    width: 99%;
+    color:#000;
+}
+.row{
+    width:100%;
+    padding:0 0 5%;
+}
+
+/* Skills-HTML-Section */
+
+.html-skill-row{
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+.htmlimage{
+    height: 155px;
+    width: 155px;
+    padding: 2.5%;
+}
+.htmltitle{
+    text-align: center;
+}
+.html-image-div{
+    text-align: center;
+}
+.html-title-div{
+    text-align: center;
+}
+.html-rating-div{
+    text-align: center;
+}
+
+
+/* Skills-CSS-Section */
+
+.css-skill-row{
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+.cssimage{
+    height: 155px;
+    width: 155px;
+    padding: 2.5%;
+}
+.csstitle{
+    text-align: center;
+}
+.css-image-div{
+    text-align: center;
+}
+.css-title-div{
+    text-align: center;
+}
+.css-rating-div{
+    text-align: center;
+}
+
+/* Skills-JS-Section */
+
+.js-skill-row{
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+.jsimage{
+    height: 160px;
+    width: 280px;
+}
+.jstitle{
+    text-align: center;
+}
+.js-image-div{
+    text-align: center;
+}
+.js-title-div{
+    text-align: center;
+}
+.js-rating-div{
+    text-align: center;
+}
+
+/* Skills-Bootstrap-Section */
+
+.bootstrap-skill-row{
+    width: 30%;
+    margin: 1.5% auto 0 auto;
+}
+.bootstrapimage{
+    height: 150px;
+    width: 250px;
+}
+.bootstraptitle{
+    text-align: center;
+}
+.bootstrap-image-div{
+    text-align: center;
+}
+.bootstrap-title-div{
+    text-align: center;
+}
+.bootstrap-rating-div{
+    text-align: center;
+}
+
+/* Skills-Python-Section */
+
+.python-skill-row{
+    width: 30%;
+    margin: 1.5% auto 0 auto;
+}
+.pythonimage{
+    height: 150px;
+    width: 150px;
+}
+.pythontitle{
+    text-align: center;
+}
+.python-image-div{
+    text-align: center;
+}
+.python-title-div{
+    text-align: center;
+}
+.python-rating-div{
+    text-align: center;
+}
+
+/* Skills-jQuery-Section */
+
+.jquery-skill-row{
+    width: 30%;
+    margin: 1.5% auto 0 auto;
+}
+.jqueryimage{
+    height: 150px;
+    width: 150px;
+}
+.jquerytitle{
+    text-align: center;
+}
+.jquery-image-div{
+    text-align: center;
+}
+.jquery-title-div{
+    text-align: center;
+}
+.jquery-rating-div{
+    text-align: center;
+}
+
+/* Skills-OOP-Section */
+
+.oop-skill-row{
+    width: 30%;
+    margin: 1% auto 0 auto;
+}
+.oopimage{
+    height: 190px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.ooptitle{
+    text-align: center;
+}
+.oop-image-div{
+    text-align: center;
+}
+.oop-title-div{
+    text-align: center;
+}
+.oop-rating-div{
+    text-align: center;
+}
+
+/* My-Work-Section */
+.my-work{
+    background-color: #ade8f4;
+}
+.my-work-header-div{
+    text-align: center;
+}
+.my-work-header{
+    font-size: 3rem;
+    padding: 5% 0 3%;
+    color: #000;
+}
+.carousel-item{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.carousel-item-logo-header{
+    font-size: 1.5rem;
+    margin: 6% 0 0;
+    
+}
+.carousel-item-header{
+ margin: 10% 0 0;
+}
+.smartmoneyfx-logo{
+    height: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 1% 0 4% ;
+}
+.simon-game-logo{
+    height: 100px;
+    aspect-ratio: 3/2;
+    border-radius: 50%;
+    margin: 1% 0 4% ;
+}
+.logo-header-link{
+    text-decoration: none;
+}
+
+
+
+/* Get-in-Touch-Section */
+
+.contact-me{
+    text-align: center;
+}
+.bottom-section{
+    text-align: center;
+}
+.getintouchp{
+    line-height: 200%;
+}
+.get-in-touch-header{
+    color: #000;
+    margin: 5% 0 2%;
+    font-size: 2rem;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .footer-link{
+      padding: 10px;
+      text-decoration: none;
+      color: #4ed9f5;
+  }
+  #bottom-section{
+    margin-top: 40px;
+    background-color:#3498db ;
+    padding: 40px 0 40px 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+  .need-a-pro-website-header{
+      color: #2980b9;
+      padding: 3% 0 0;
+  }
+  .footer-copyright{
+    color: white;
+    position: relative;
+    top: 10px;
+
+  }
