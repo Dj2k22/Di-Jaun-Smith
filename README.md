@@ -1,2 +1,0 @@
-# Di-JaunSmith
-Personal Website
