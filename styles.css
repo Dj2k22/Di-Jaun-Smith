@@ -163,29 +163,64 @@ p{
 
 /* Intro-Section-Media-Queries */
 
+@media(min-width:2041px) {
+    .intro{
+        height: fit-content;
+    }
+}
+@media(max-width:2040px) and (min-width:1941px){
+    .intro{
+        height: fit-content;
+    }
+}
+@media(max-width:1940px) and (min-width:1841px){
+    .intro{
+        height: fit-content;
+    }
+}
+@media(max-width:1840px) and (min-width:1741px){
+    .intro{
+        height: fit-content;
+    }
+}
+@media(max-width:1740px) and (min-width:1641px){
+    .intro{
+        height: fit-content;
+    }
+}
+@media(max-width:1640px) and (min-width:1541px){
+    .intro{
+        height: fit-content;
+    }
+}
+@media(max-width:1540px) and (min-width:1441px){
+    .intro{
+        height: fit-content;
+    }
+}
 @media(max-width:1440px) and (min-width:1340px){
     .intro{
-        height: 88.95rem;
+        height: fit-content;
     }
 }
 @media(max-width:1340px) and (min-width:1240px){
     .intro{
-        height: 88.20rem;
+        height: fit-content;
     }
 }
 @media(max-width:1240px) and (min-width:1140px){
     .intro{
-        height: 87.45rem;
+        height: fit-content;
     }
 }
 @media(max-width:1140px) and (min-width:1040px){
     .intro{
-        height: 86.70rem;
+        height: fit-content;
     }
 }
 @media(max-width:1040px) and (min-width:992px){
     .intro{
-        height: 82.70rem;
+        height: fit-content;
     }
     .mountain{
         height:550px;
@@ -194,7 +229,7 @@ p{
 }
 @media(max-width:991px) and (min-width:911px){
     .intro{
-        height: 82.30rem;
+        height: fit-content;
     }
     .mountain{
         height:550px;
@@ -203,7 +238,7 @@ p{
 }
 @media(max-width:910px) and (min-width:841px){
     .intro{
-        height: 76.4rem;
+        height: fit-content;
     }
     .mountain{
         height:500px;
@@ -226,7 +261,7 @@ p{
 }
 @media(max-width:840px) and (min-width:768px){
     .intro{
-        height: 74.65rem;
+        height: fit-content;
     }
     .mountain{
         height:500px;
@@ -249,7 +284,7 @@ p{
 }
 @media(max-width:767px) and (min-width:700px){
     .intro{
-        height: 69.05rem;
+        height: fit-content;
     }
     .mountain{
         height:450px;
@@ -272,7 +307,7 @@ p{
 }
 @media(max-width:699px) and (min-width:599px){
     .intro{
-        height: 61.9rem;
+        height: fit-content;
     }
     .mountain{
         height:380px;
@@ -300,7 +335,7 @@ p{
 }
 @media(max-width:598px) and (min-width:498px){
     .intro{
-        height: 54.95rem;
+        height: fit-content;
     }
     .mountain{
         height:320px;
@@ -323,7 +358,7 @@ p{
 }
 @media(max-width:548px) and (min-width:498px){
     .intro{
-        height: 51.45rem;
+        height: fit-content;
     }
     .greeting{
         font-size: 4.2rem;
@@ -338,7 +373,7 @@ p{
 }
 @media(max-width:497px) and (min-width:425px){
     .intro{
-        height: 49.3rem;
+        height: fit-content;
     }
     .greeting{
         font-size: 4rem;
@@ -364,7 +399,7 @@ p{
 }
 @media(max-width:424px) and (min-width:375px){
     .intro{
-        height: 44.65rem;
+        height: fit-content;
     }
     .greeting{
         font-size: 3.5rem;
@@ -390,7 +425,7 @@ p{
 }
 @media(max-width:374px) and (min-width:320px){
     .intro{
-        height: 40.9rem;
+        height: fit-content;
     }
     .greeting{
         font-size: 3.2rem;
@@ -414,12 +449,18 @@ p{
         font-size: 0.95rem;
     }
 }
+@media(max-width:320px){
+    .intro{
+        height: fit-content;
+    }
+}
+
 /* Profile-Section */
 
 .profile{
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20rem;
+    height: fit-content;
     width:100%;
     vertical-align: middle;
 }
@@ -429,6 +470,15 @@ p{
 }
 .remove-link-decoration:hover{
     color: #3cb0fd;
+}
+.profile-picture{
+    border-radius: 50%;
+    height:180px;
+    width:140px;
+}
+.profile-picture-div{
+    padding: 3% 2% 0.1%;
+    text-align: center;
 }
 .hi{
     font-family: 'Montserrat', sans-serif;
@@ -448,7 +498,6 @@ p{
 .description-paragraph{
     line-height: 2;
 }
-
 /* Profile-Media-Queries */
   
   @media (max-width: 767px) and (min-width: 700px){
@@ -460,13 +509,25 @@ p{
     .introduction-paragraph{
         padding: 0 4%;
     }
+    .profile-picture-div{
+        padding: 4% 2% 1%;
+    }
   }
   @media (max-width: 598px) and (min-width: 498px){
     .introduction-paragraph{
         padding: 0 4%;
         font-size: 0.95rem;
     }
+    .profile-picture{
+        border-radius: 50%;
+        height:170px;
+        width:130px;
+    }
+    .profile-picture-div{
+        padding: 5% 2% 1%;
+    }
   }
+  
   @media (max-width: 548px) and (min-width: 498px){
     .introduction-paragraph{
         padding: 0 4%;
@@ -478,11 +539,27 @@ p{
         padding: 0 4%;
         font-size: 0.8rem;
     }
+    .profile-picture{
+        border-radius: 50%;
+        height:160px;
+        width:120px;
+    }
+    .profile-picture-div{
+        padding: 5% 2% 1%;
+    }
   }
   @media (max-width: 457px) and (min-width: 425px){
     .introduction-paragraph{
         padding: 0 4%;
         font-size: 0.8rem;
+    }
+    .profile-picture{
+        border-radius: 50%;
+        height:140px;
+        width:110px;
+    }
+    .profile-picture-div{
+        padding: 5% 2% 1%;
     }
   }
   @media (max-width: 424px) and (min-width: 375px){
@@ -490,11 +567,27 @@ p{
         padding: 0 4%;
         font-size: 0.8rem;
     }
+    .profile-picture{
+        border-radius: 50%;
+        height:130px;
+        width:100px;
+    }
+    .profile-picture-div{
+        padding: 5% 2% 3%;
+    }
   }
   @media (max-width: 374px) and (min-width: 320px){
     .introduction-paragraph{
         padding: 0 4%;
         font-size: 0.8rem;
+    }
+    .profile-picture{
+        border-radius: 50%;
+        height:130px;
+        width:100px;
+    }
+    .profile-picture-div{
+        padding: 5% 2% 3%;
     }
   }
   @media (max-width: 354px) and (min-width: 320px){
