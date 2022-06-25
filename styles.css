@@ -1085,7 +1085,7 @@ p{
 /* Skills-Express.js Section */
 
 .expressjs-skill-row{
-    margin: 1% auto 0 auto;
+    margin: 2% auto 0 auto;
 }
 .expressjs-image-div{
     text-align: center;
@@ -1106,7 +1106,134 @@ p{
     text-align: center;
 }
 
+/* Skills-MongoDB Section */
+
+.mongodb-skill-row{
+    margin: 2% auto 0 auto;
+}
+.mongodb-image-div{
+    text-align: center;
+    padding: 0% 0 0;
+    margin: 1% 0 4%;
+}
+.mongodb-image{
+    height: 200px;
+    width: 210px;
+}
+.mongodb-title-div{
+    text-align: center;
+}
+.mongodb-title{
+    text-align: center;
+}
+.mongodb-rating-div{
+    text-align: center;
+}
+
+
+
+/* Skills-Mongoose Section */
+.mongoose-skill-row{
+    margin: 1% auto 0 auto;
+}
+.mongoose-image-div{
+    text-align: center;
+    padding: 8% 0 0;
+    margin: 0 0 9%;
+}
+.mongoose-image{
+    height: 130px;
+    width: 260px;
+}
+.mongoose-title-div{
+    text-align: center;
+}
+.mongoose-title{
+    text-align: center;
+}
+.mongoose-rating-div{
+    text-align: center;
+}
+
+
 /* Skills-Media-Queries */
+
+
+@media(max-width: 1440px) and (min-width:1040px){
+    .oop-image-div{
+        margin: 0 0 3%;
+    }
+    .expressjs-image-div{
+        text-align: center;
+        padding: 20% 0 0;
+        margin: 0 0 3%;
+    }
+}
+@media(max-width: 1240px) and (min-width:1140px){
+    .mongoose-image-div{
+        text-align: center;
+        padding: 10% 0 0;
+        margin: 0 0 9%;
+    }
+}
+@media(max-width: 1139px) and (min-width:940px){
+    .oop-image-div{
+        margin: 0 0 3%;
+    }
+    .mongoose-image-div{
+        text-align: center;
+        padding: 11% 0 0;
+        margin: 0 0 9%;
+    }
+    .expressjs-image-div{
+        text-align: center;
+        padding: 25% 0 0;
+        margin: 0 0 3%;
+    }
+}
+@media(max-width: 991px) and (min-width:791px){
+    .oop-image-div{
+        margin: 0 0 3%;
+    }
+    .mongoose-image-div{
+        text-align: center;
+        padding: 11% 0 0;
+        margin: 0 0 9%;
+    }
+    .expressjs-image-div{
+        text-align: center;
+        padding: 24% 0 0;
+        margin: 0 0 3%;
+    }
+}
+@media(max-width: 991px){
+    .mongoose-image-div{
+        text-align: center;
+        padding: 11% 0 0;
+        margin: 0 0 3%;
+    }
+}
+@media(max-width: 790px) and (min-width:690px){
+    .oop-image-div{
+        margin: 0 0 3%;
+    }
+    .expressjs-image-div{
+        text-align: center;
+        padding: 30% 0 0;
+        margin: 0 0 3%;
+    }
+}
+@media(max-width: 689px){
+    .oop-image-div{
+        margin: 0 0 3%;
+    }
+    .expressjs-image-div{
+        text-align: center;
+        padding: 35% 0 0;
+        margin: 0 0 3%;
+    }
+}
+
 
 @media (max-width: 992px){
     .html-skill-row{
