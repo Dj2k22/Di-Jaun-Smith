@@ -1061,24 +1061,26 @@ p{
 
 /* Skills-OOP-Section */
 
-.oop-skill-row{
+.react-skill-row{
     margin: 1% auto 0 auto;
 }
-.oopimage{
-    height: 190px;
-    aspect-ratio: 1;
+.reactimage{
+    height: 9.5rem;
+    aspect-ratio:5/3;
     border-radius: 50%;
+    padding: 7% 0 0;
+    margin: 15% auto 0 auto;
 }
-.ooptitle{
+.reacttitle{
     text-align: center;
 }
-.oop-image-div{
+.react-image-div{
     text-align: center;
 }
-.oop-title-div{
+.react-title-div{
     text-align: center;
 }
-.oop-rating-div{
+.react-rating-div{
     text-align: center;
 }
 
